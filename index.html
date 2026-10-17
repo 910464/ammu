@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f4bfd1" />
+  <title>For Ammu — A Little Place for You ❤️</title>
+  <meta name="description" content="A little corner made with love for Ammu." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="heartLayer" aria-hidden="true"></div>
+
+  <div class="welcome" id="welcome">
+    <div class="welcome-glow"></div>
+    <div class="welcome-content">
+      <div class="mini-heart">♥</div>
+      <p class="eyebrow">A message from Paaaa</p>
+      <h1>Hey, <em>Ammu.</em></h1>
+      <p class="welcome-text">I know there are moments when the house feels a little too quiet.</p>
+      <p class="welcome-text">So I made you a little place where you can find me, even when I'm not there.</p>
+      <button class="primary-btn enter-btn" id="enterBtn">Come inside, Kuttyma <span>→</span></button>
+      <p class="welcome-small">Made with love, especially for Mrs. Subashini Sri Abishek.</p>
+    </div>
+  </div>
+
+  <header class="topbar">
+    <a class="brand" href="#home">Ammu <span>♥</span></a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+    <nav id="nav">
+      <a href="#home">Home</a>
+      <a href="#story">Our Story</a>
+      <a href="#letters">Letters</a>
+      <a href="#memories">Memories</a>
+      <a href="#play">Little Things</a>
+      <a href="#comfort">Comfort</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">A little place made by Paaaa & Abiii</p>
+        <h2 class="hero-title">Whenever you feel alone,<br><em>come find me here.</em></h2>
+        <p class="lead">I can't be beside you every minute. But I can leave little pieces of my love here for you to find whenever you need them.</p>
+        <div class="hero-actions">
+          <button class="primary-btn" id="missBtn">I miss you ❤️</button>
+          <a class="ghost-btn" href="#letters">Open something for you</a>
+        </div>
+        <p class="tiny-note" id="heroNote">Paaaa is always just a call away.</p>
+      </div>
+      <div class="hero-photo-wrap reveal">
+        <div class="photo-glow"></div>
+        <div class="photo-card">
+          <img src="assets/our-photo.jpg" alt="A memory of us together" />
+          <div class="photo-caption">One of my favourite places is beside you. ❤️</div>
+        </div>
+        <div class="floating-note">for my<br><strong>En Kanmani</strong> ♡</div>
+      </div>
+    </section>
+
+    <section class="presence section reveal">
+      <div class="section-heading">
+        <p class="eyebrow">A little reminder</p>
+        <h2>I'm here.</h2>
+      </div>
+      <div class="presence-card">
+        <div class="heart-pulse">♥</div>
+        <div>
+          <p class="big-message" id="presenceMessage">You're loved. You're important. And you're never really alone.</p>
+          <p class="signature">— Paaaa / Abiii</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="story" class="section reveal">
+      <div class="section-heading">
+        <p class="eyebrow">Us, in little moments</p>
+        <h2>Our story is still being written.</h2>
+        <p>This timeline is ready for the real dates and memories that belong to you two.</p>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item">
+          <span class="timeline-dot">♥</span>
+          <div class="timeline-card">
+            <small>THE BEGINNING</small>
+            <h3>The day our story started</h3>
+            <p>Replace this with the real beginning of your story — the first conversation, first meeting, or the moment you knew she was special.</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <span class="timeline-dot">♡</span>
+          <div class="timeline-card">
+            <small>A FAVOURITE MEMORY</small>
+            <h3>One ordinary day that became special</h3>
+            <p>Sometimes the best memories aren't big events. They're the silly conversations, shared food, long walks and comfortable silence.</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <span class="timeline-dot">✦</span>
+          <div class="timeline-card">
+            <small>TODAY</small>
+            <h3>Still choosing you.</h3>
+            <p>No matter how many chapters come next, this is the part where Paaaa says: I would still choose my Ammu.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="letters" class="section reveal">
+      <div class="section-heading">
+        <p class="eyebrow">Open when you need me</p>
+        <h2>Little letters for my Kuttyma</h2>
+        <p>Pick one. I put a little piece of my heart inside each one.</p>
+      </div>
+      <div class="letter-grid">
+        <button class="letter-card" data-title="When you miss me" data-message="Come here, en kanmani. Close your eyes for a moment and imagine me sitting right next to you. If I could teleport, I would already be there. Until then, keep this little hug from me. 🫂❤️">
+          <span>💌</span><strong>When you miss me</strong><small>Open gently</small>
+        </button>
+        <button class="letter-card" data-title="When you're lonely" data-message="Hey Lipsy, look at me for a second. You are loved more than you realise. This quiet moment will pass. Put on your favourite song, drink some water, and remember that your Paaaa is only a call away. ❤️">
+          <span>🌷</span><strong>When you're lonely</strong><small>I have something to tell you</small>
+        </button>
+        <button class="letter-card" data-title="When you need a hug" data-message="Hug delivery! 🫂 Wrap your arms around yourself for five seconds. That's me hugging you until I can do it properly. And yes, I expect a real hug when I see you.">
+          <span>🫂</span><strong>When you need a hug</strong><small>Very important</small>
+        </button>
+        <button class="letter-card" data-title="Before you sleep" data-message="Good night, my Wifey. Let your mind rest. No worrying, no overthinking. Just close your eyes and sleep peacefully. Somewhere, your Abiii is thinking about you and smiling. 🌙❤️">
+          <span>🌙</span><strong>Before you sleep</strong><small>For tonight</small>
+        </button>
+        <button class="letter-card" data-title="When you're angry with me" data-message="Okay okay... first, breathe. 😌 I know I can be annoying. But even when you're angry, you're still my favourite person. We can talk, argue, laugh, and make up. I choose you every time.">
+          <span>🥺</span><strong>When you're angry with me</strong><small>Fine, I surrender</small>
+        </button>
+        <button class="letter-card" data-title="When you need motivation" data-message="En kanmani, you're stronger than the difficult moment you're having. One small thing at a time. You don't have to solve everything today. I'm proud of you. Always. 💗">
+          <span>✨</span><strong>When you need motivation</strong><small>You can do this</small>
+        </button>
+      </div>
+    </section>
+
+    <section id="memories" class="section reveal">
+      <div class="section-heading">
+        <p class="eyebrow">Our little gallery</p>
+        <h2>Moments I want to keep forever.</h2>
+        <p>One photo today. This can become your full relationship gallery.</p>
+      </div>
+      <div class="gallery">
+        <figure class="gallery-main">
+          <img src="assets/our-photo.jpg" alt="A memory of us" />
+          <figcaption><span>OUR MEMORY #01</span><strong>Somewhere together.</strong></figcaption>
+        </figure>
+        <div class="gallery-empty">
+          <span>+</span>
+          <strong>Your next memory</strong>
+          <small>Add another photo to the <code>assets</code> folder and duplicate a gallery card in <code>index.html</code>.</small>
+        </div>
+        <div class="gallery-empty soft">
+          <span>♡</span>
+          <strong>A story goes here</strong>
+          <small>Write what happened, why you remember it, and what you felt.</small>
+        </div>
+      </div>
+    </section>
+
+    <section id="play" class="section reveal">
+      <div class="section-heading">
+        <p class="eyebrow">Distract my Wifey</p>
+        <h2>Let's do something silly.</h2>
+      </div>
+      <div class="play-grid">
+        <div class="game-card">
+          <span class="game-icon">💭</span>
+          <h3>Question for you</h3>
+          <p id="questionText">What is one tiny thing about Paaaa that secretly makes you smile?</p>
+          <button class="outline-btn" id="questionBtn">Another question</button>
+        </div>
+        <div class="game-card">
+          <span class="game-icon">🎲</span>
+          <h3>Pick a little activity</h3>
+          <p id="activityText">Make your favourite drink and send Paaaa a photo. ☕</p>
+          <button class="outline-btn" id="activityBtn">Give me one</button>
+        </div>
+        <div class="game-card special">
+          <span class="game-icon">🫂</span>
+          <h3>Emergency hug</h3>
+          <p>For when words aren't enough.</p>
+          <button class="primary-btn" id="hugBtn">SEND HUG</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="chat section reveal">
+      <div class="section-heading">
+        <p class="eyebrow">A place to leave me a message</p>
+        <h2>Talk to Paaaa.</h2>
+        <p>This first version saves messages only on this device. Later we can connect it to a real private backend so you can see her messages from your phone.</p>
+      </div>
+      <div class="chat-box">
+        <div class="chat-header">
+          <div class="avatar">P</div>
+          <div><strong>Paaaa</strong><small>Always your person ❤️</small></div>
+          <span class="online-dot"></span>
+        </div>
+        <div class="chat-messages" id="chatMessages">
+          <div class="bubble them">Hey Ammu ❤️ I'm listening.</div>
+        </div>
+        <form class="chat-input" id="chatForm">
+          <input id="chatInput" maxlength="240" placeholder="Tell Paaaa something..." autocomplete="off" />
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="comfort" class="comfort section reveal">
+      <div class="comfort-inner">
+        <p class="eyebrow">Comfort mode</p>
+        <h2>Stay here for a minute, Ammu.</h2>
+        <p class="comfort-text">Put your phone down for a moment. Breathe slowly. You're safe. You're loved. And I'm thinking of you.</p>
+        <button class="primary-btn" id="comfortBtn">Start a little breathing moment</button>
+        <div class="breathing" id="breathing" hidden>
+          <div class="breath-circle"></div>
+          <p id="breathText">Breathe in...</p>
+          <small id="breathTimer">4</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="countdown section reveal">
+      <div class="section-heading centered">
+        <p class="eyebrow">Until we meet again</p>
+        <h2>Just a little longer. ❤️</h2>
+      </div>
+      <div class="countdown-card">
+        <div><span id="days">--</span><small>Days</small></div>
+        <div><span id="hours">--</span><small>Hours</small></div>
+        <div><span id="minutes">--</span><small>Minutes</small></div>
+        <div><span id="seconds">--</span><small>Seconds</small></div>
+      </div>
+      <p class="countdown-note">Change the date in <code>app.js</code> when you know your next meeting.</p>
+    </section>
+
+    <section class="secret section reveal">
+      <div class="secret-card">
+        <span class="secret-lock">🔐</span>
+        <p class="eyebrow">For your eyes only</p>
+        <h2>A tiny secret.</h2>
+        <p>There is a private little message waiting here.</p>
+        <button class="outline-btn" id="secretBtn">Open the secret</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with too much love for <strong>Ammu</strong> ❤️</p>
+    <p class="footer-small">From Paaaa, with love. Always.</p>
+  </footer>
+
+  <div class="modal" id="letterModal" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+    <div class="modal-box">
+      <button class="close-modal" id="closeModal" aria-label="Close">×</button>
+      <div class="modal-icon">💗</div>
+      <p class="eyebrow">A little letter</p>
+      <h2 id="modalTitle"></h2>
+      <p id="modalMessage"></p>
+      <button class="primary-btn" id="modalHeart">Send a heart back ❤️</button>
+    </div>
+  </div>
+
+  <div class="modal" id="secretModal" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+    <div class="modal-box secret-modal">
+      <button class="close-modal" id="closeSecret" aria-label="Close">×</button>
+      <div class="modal-icon">💗</div>
+      <p class="eyebrow">A message from Paaaa</p>
+      <h2>My favourite thing about you</h2>
+      <p>You don't have to be perfect for me. You don't have to be happy every day. I just want you to be you. And whenever the world feels a little heavy, remember that there is someone who looks at you and thinks, “That's my girl.” ❤️</p>
+      <p class="signature">— Abiii</p>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
